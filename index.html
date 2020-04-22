@@ -21,7 +21,7 @@
 
 <script>
     // 跨域获取且显示子页面中的title
-    window.addEventListener("message", function() {
+    window.addEventListener("message", function(e) {
         document.title = e.data;
     }, false);
 
